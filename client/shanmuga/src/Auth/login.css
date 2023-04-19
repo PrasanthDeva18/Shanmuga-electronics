@@ -1,0 +1,120 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    background: url("../images/purple.jpeg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background: rgba(90, 127, 183, 0.1);
+    background-size: cover;
+    backdrop-filter: blur(12.5px);
+    border-radius: 40px;
+    height: 500px;
+    width: 400px;
+
+}
+
+.box22 {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background: rgba(90, 127, 183, 0.1);
+    background-size: cover;
+    backdrop-filter: blur(12.5px);
+    border-radius: 40px;
+    height: 550px;
+    width: 400px;
+
+}
+
+.kl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 270px;
+    /* height: 40px; */
+    border-radius: 10px;
+    border: none;
+    padding: 6px 12px;
+    background:white;
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 13px;
+    /* color: rgb(247, 248, 248); */
+    color: black;
+    height: 46px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+}
+
+/* 
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(100, 153, 255);
+} */
+
+
+
+input::placeholder {
+    text-align: center;
+}
+
+.btnnn {
+    background: #003465;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white
+
+}
+
+.ll {
+    font-family: 'Nunito';
+    margin-left: 50px;
+    color: white;
+}
+
+.para {
+    font-family: 'Nunito';
+    color: white;
+    font-size: 14px;
+}
+
+.para2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}

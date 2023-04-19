@@ -1,0 +1,33 @@
+.Parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 50px;
+ }
+ 
+ .child{
+ display: flex;
+ flex-direction:row;
+ justify-content: center;
+ align-items: center;
+ gap:50px;
+ }
+ 
+.Parent img{
+     height:200px;
+     width:300px;
+ }
+ 
+ .Parent h3{
+     margin-top:50px;
+     display: flex;
+     /* flex-wrap: wrap; */
+     align-items: center;
+     font-size:25px;
+ }
+ 
+ .name{
+     padding-left:300px;
+ }
+ 

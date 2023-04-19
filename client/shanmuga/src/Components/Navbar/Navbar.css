@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+.navbar {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 49px;
+    /* background-color: transparent; */
+    /* position: fixed;
+    z-index: 10; */
+}
+
+.navbar .nav-logo {
+    display: flex;
+    align-items: center;
+   
+}
+
+.navbar .nav-logo h3 {
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 22px;
+
+}
+
+.navbar .navbar-menu {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 0px;
+    gap: 26px;
+    margin-top: 28px;
+
+
+}
+
+.navbar-item1,
+.navbar-item2 {
+
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bt-log{
+    background-color: red;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.navbar-item3 {
+    padding: 8px 12px;
+    width: 122px;
+    height: 35px;
+    background: #7B2CBF;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.nav-active {
+    background-color:#0f172a;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.navbar .toggle-icon{
+    display: none
+  }
+
+     @media(max-width: 768px){
+        .navbar{
+          position: relative;
+          transition: 0.5s all ease-in-out;
+        }
+      
+        .navbar.expanded{
+          height: 100vh;
+        }
+      
+        .navbar.expanded .navbar-menu{
+          position: absolute;
+          top: 120px;
+          left: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          opacity: 1;
+        }
+      
+        .navbar.expanded .navbar-menu Link{
+          margin: 15px 0;
+          font-size: 24px;
+        }
+        
+      
+        .navbar .toggle-icon{
+          display: block;
+          color: #D9D2C3;
+          position: absolute;
+          top: 28px;
+          right: 20px;
+          background-color: #00000045;
+          border-radius: 2px;
+        }
+
+        .navbar .nav-logo {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            margin-top: 17px;
+            top: 0;
+        }
+      
+        .navbar .navbar-menu{
+          position: absolute;
+          top: -300px;
+          left: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          opacity: 0;
+          transition: all 0.5s ease-in-out;
+        }
+      
+        .navbar .navbar-menu Link {
+          margin: 15px 0;
+          font-size: 24px;
+        }
+      }

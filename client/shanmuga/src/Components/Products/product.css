@@ -1,0 +1,26 @@
+.products{
+    margin: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pro{
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bbb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}

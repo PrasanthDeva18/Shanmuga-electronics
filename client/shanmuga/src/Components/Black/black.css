@@ -1,0 +1,40 @@
+.black{
+    height: 500px;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.le{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.con1{
+    height: 70px;
+    width: 410px;
+    font-family: 'Nunito';
+    text-align: start;
+}
+
+.con2{
+    height: 60px;
+    width: 460px;
+    font-family: 'Nunito';
+    text-align: start;
+}
+
+.btnn{
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+
